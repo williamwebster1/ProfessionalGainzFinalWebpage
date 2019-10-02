@@ -1,0 +1,113 @@
+body{
+	background-color:black;
+	display:flex;
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+.column{
+	width: calc(100%/3);
+	height:100%;
+	border-style: solid;
+	border-color: silver;
+	border-width:1px;
+	display:block;
+}
+
+/*layout rows*/
+.box{ 
+
+	width: 100%;
+	height: calc(100%/3);
+	display:block;
+}
+.box1{
+	width: 100%;
+	height: calc(100%/3);
+	display:block;
+}
+.box2{
+	width: 100%;
+	height: calc(100%/3);
+	display:block;
+}
+.box3{
+	width: 100%;
+	height: calc(100%/3);
+	display:block;
+}
+ p{
+	margin:0%;
+	color: white;
+	text-align: center;
+	display:block;
+	vertical-align:middle;
+	font-size:40px;
+ }
+ .center-text{
+	display: block;
+	text-align:center;
+	align-items:center;
+	vertical-align:center;
+ }
+.contain-img {
+	height: 100%;
+	width: 100%;
+}
+.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+.contain-img2{
+	align-items:center;
+	justify-content: center;
+	width:calc(100%/3);
+	height:50%;
+}
+.contain-img3{
+	align-items:center;
+	justify-content: center;
+	width:100%;
+	height:100%;
+}
+/*background colors*/
+.purple{
+	background-color:purple;
+}
+.red{
+	background-color:red;
+}
+.blue{
+	background-color:blue;
+}
+.yellow{
+	background-color:yellow;
+}
+.black{
+	background-color:black;
+}
+
+.kitten {content: url("images/aii.jpg");}
+
+
+@media only screen and (max-width: 675px) {
+	body{
+		display:block
+	}
+	.column{
+		height: 100%;
+		width: 100%;
+	}
+	.box{
+		diplay:flex;
+	}
+	.box1{
+		content: url("images/gainz.jpg");
+	}
+	.box2{
+		content: url("images/gainz.jpg");
+	}
+}
